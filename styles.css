@@ -244,7 +244,7 @@ button {
     margin: 8px 0
 }
 
-.styles_nav_item_footer__6HwUL {
+.footer_navlist_inner_container {
     display: flex;
     flex-direction: column
 }
@@ -291,9 +291,9 @@ button {
     background-color: #ebbe00
 }
 
-.styles_air_ports__Xt8cj,
+.air_ports_container,
 .fcl_ports_outer,
-.styles_lcl_ports__pgneX {
+.lcl_ports_container {
     display: flex;
     flex-direction: column
 }
@@ -371,29 +371,9 @@ button {
     }
 }
 
-.styles_product_list__xVcmY {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    font-family: var(--font-family-heading);
-    font-size: larger;
-    font-weight: 900;
-    list-style: none
-}
 
-.styles_heading___TKVM {
-    text-decoration: underline
-}
 
-.styles_option_item__y5SaH {
-    list-style-type: circle
-}
-
-.styles_option_new__Gmw_F {
-    list-style-type: none
-}
-
-.styles_copyright_list__zrvQ7 {
+.copyright_policy_list {
     display: flex;
     margin-left: 10px;
     font-family: var(--font-family-heading);
@@ -402,26 +382,26 @@ button {
     list-style-type: none
 }
 
-.styles_copyright_list__zrvQ7 a {
+.copyright_policy_list a {
     color: #000;
     text-decoration: none
 }
 
 @media (min-width:768px) and (max-width:1075px) {
-    .styles_copyright_list__zrvQ7 li {
+    .copyright_policy_list li {
         padding: 0 5px
     }
 }
 
 @media (max-width:767px) {
-    .styles_copyright_list__zrvQ7 {
+    .copyright_policy_list {
         display: flex;
         flex-wrap: wrap;
         margin: -60px
     }
 }
 
-.styles_copyright_list_cogo__y5Yaa {
+.cogo_copyright_statement {
     display: flex;
     margin-left: 10px;
     font-family: var(--font-family-heading);
@@ -431,62 +411,21 @@ button {
 }
 
 @media (max-width:767px) {
-    .styles_copyright_list_cogo__y5Yaa {
+    .cogo_copyright_statement {
         display: none
     }
 }
 
-.styles_list__jGq8v {
+.cookie_policy_TandC {
     margin-right: 5px;
     cursor: pointer
 }
 
-.styles_list__jGq8v:hover {
+.cookie_policy_TandC:hover {
     text-decoration: underline
 }
 
-.styles_logo_container__cd8TE {
-    display: block;
-    flex-shrink: 0
-}
-
-.styles_actions_container__n29sF {
-    display: flex;
-    flex: 1 1;
-    align-items: center;
-    justify-content: flex-end
-}
-
-.styles_actions_svg__YPn1G {
-    display: block
-}
-
-.styles_actions_link__qjBFc {
-    margin-left: 8px;
-    font-style: bold
-}
-
-.styles_nav_button__ZBW5p {
-    display: none;
-    flex-shrink: 0;
-    align-items: center;
-    justify-content: center;
-    height: 30px;
-    padding: 0;
-    margin-right: 16px;
-    font-size: 20px;
-    cursor: pointer;
-    background-color: transparent;
-    border: none
-}
-
-@media (max-width:767px) {
-    .styles_nav_button__ZBW5p {
-        display: flex
-    }
-}
-
-.styles_nav_list__fPY18 {
+.footer_navlist_container {
     top: 0;
     display: flex;
     flex-direction: column;
@@ -496,7 +435,7 @@ button {
 }
 
 @media (max-width:767px) {
-    .styles_nav_list__fPY18 {
+    .footer_navlist_container {
         width: 50%
     }
 }
@@ -2274,44 +2213,6 @@ button {
     }
 }
 
-.styles_video_thumbnail__niIJv {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover
-}
-
-.styles_video_overlay__u8VFC {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, .4)
-}
-
-.styles_play_button__s2Aqv {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 8px
-}
-
-.styles_yt_frame__BYKlE {
-    display: block;
-    width: 100%;
-    height: 500px;
-    border-radius: 4px
-}
-
-@media (max-width:767px) {
-    .styles_yt_frame__BYKlE {
-        height: 300px
-    }
-}
 
 .trustedby_heading {
     text-align: center
@@ -2356,15 +2257,6 @@ button {
     }
 }
 
-.styles_marquee_borders__6VAHK {
-    padding-block: .75rem;
-    border-block: 3px solid #1e90ff
-}
-
-.styles_marquee_reverse__9dSPt .trustedby_img_container {
-    animation-delay: calc(60s / -2);
-    animation-direction: reverse
-}
 
 @keyframes styles_scroll__Yny6C {
     0% {
@@ -2376,49 +2268,26 @@ button {
     }
 }
 
-.styles_yt_frame___SNWu {
-    display: block;
-    width: 100%;
-    height: 500px;
-    border-radius: 4px
-}
 
-@media (max-width:767px) {
-    .styles_yt_frame___SNWu {
-        height: 300px
-    }
-}
-
-.styles_video_thumbnail_container__xBHGN {
-    position: relative;
-    height: 450px;
-    cursor: pointer
-}
-
-.styles_video_thumbnail_container__xBHGN h4 {
-    font-size: 24px;
-    color: #fff
-}
-
-.styles_know_more__jTOOf {
+.know_more_btn {
     color: #000 !important;
     background: var(--color-secondary) !important
 }
 
-.styles_video_container__pHUFS {
+.know_more_about_trade_platform {
     background: var(--color-primary)
 }
 
-.styles_video_container__pHUFS h3 {
+.know_more_about_trade_platform h3 {
     margin-bottom: 10px;
     color: #fff
 }
 
-.styles_video_container__pHUFS p {
+.know_more_about_trade_platform p {
     color: #fff
 }
 
-.styles_button_container__JiLtH {
+.know_more_button_content {
     display: flex;
     align-items: center;
     justify-content: center
@@ -2448,7 +2317,7 @@ button {
     }
 }
 
-.styles_container__RyMJG {
+.trade_platform_inner {
     position: relative;
     display: flex;
     align-items: center;
@@ -2456,48 +2325,9 @@ button {
 }
 
 @media (max-width:767px) {
-    .styles_container__RyMJG {
+    .trade_platform_inner {
         flex-direction: column;
         align-items: flex-start
-    }
-}
-
-.styles_video_thumbnail__pOb6D {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover
-}
-
-.styles_video_overlay__U9zLv {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, .4)
-}
-
-.styles_play_button__EeLAz {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 8px
-}
-
-.styles_yt_frame__RL0XF {
-    display: block;
-    width: 100%;
-    height: 500px;
-    border-radius: 4px
-}
-
-@media (max-width:767px) {
-    .styles_yt_frame__RL0XF {
-        height: 300px
     }
 }
 
@@ -2564,16 +2394,6 @@ button {
     .industries_served_outer {
         padding: initial !important;
         margin-bottom: 32px
-    }
-}
-
-.styles_why_us__cB5hc {
-    background: #fffef2
-}
-
-@media (max-width:767px) {
-    .styles_break__jvZ6z {
-        display: none
     }
 }
 
